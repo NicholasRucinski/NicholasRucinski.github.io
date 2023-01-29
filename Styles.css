@@ -1,0 +1,10 @@
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: black;
+}
+p {
+    color: black;
+    border: 2px solid white;
+}
