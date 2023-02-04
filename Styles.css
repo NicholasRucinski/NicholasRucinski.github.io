@@ -1,5 +1,5 @@
 body {
-    background-color: powderblue;
+    background-color: white;
 }
 h1 {
     color: black;
@@ -7,4 +7,12 @@ h1 {
 p {
     color: black;
     border: 2px solid white;
+}
+.main {
+    width: 60vw;
+    height: 60vw;
+    margin: 25 auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3c68b2;
 }
