@@ -16,3 +16,88 @@ p {
     border-width: 5px;
     border-color: #3c68b2;
 }
+
+.topnavbl {
+    background-color: #3c68b2;
+    overflow: hidden;
+}
+
+.topnavbgn {
+    background-color: #066760;
+    overflow: hidden;
+}
+
+.topnavrd {
+    background-color: #bf3730;
+    overflow: hidden;
+}
+
+.topnavbl a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.topnavgn a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnavrd a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnavbl a:hover {
+    background-color: #2b5294;
+    color: white;
+}
+
+.topnavgn a:hover {
+    background-color: #066760;
+    color: white;
+}
+
+.topnavrd a:hover {
+    background-color: #bf3730;
+    color: white;
+}
+
+.image {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    padding: 3px 3px;
+    scale: 200%;
+    vertical-align: middle;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    padding: 3px 3px;
+    scale: 250%;
+}
+
+.topnav-center {
+    display: block;
+    width: 60px;
+    height: 0px;
+    margin: auto;
+}
