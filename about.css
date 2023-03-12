@@ -1,10 +1,8 @@
 body {
     background-color: white;
-    overflow: hidden;
 }
 h1 {
     color: black;
-    text-align: center;
 }
 p {
     color: black;
@@ -12,16 +10,16 @@ p {
 }
 
 .main {
-    width: 60%;
+    width: 60vw;
     height: 60vw;
     margin: 25 auto;
     border-style: solid;
     border-width: 5px;
-    border-color: #992721;
+    border-color: #bf3730;
 }
 
 .topnav {
-    background-color: #992721;
+    background-color: #bf3730;
     overflow: hidden;
     position: relative;
 }
@@ -58,10 +56,8 @@ p {
     width: 20px;
     height: 20px;
     align-self: center;
-    padding: 3px 0px;
+    padding: 3px 3px;
     scale: 250%;
-    margin-left: auto;
-    margin-left: auto;
 }
 
 .topnav-center {
