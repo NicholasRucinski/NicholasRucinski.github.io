@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Employee } from '../employee';
 import { EmployeeService } from '../employee.service';
+import {FormsModule, ReactiveFormsModule } from '@angular/forms';
  
 @Component({
  selector: 'app-employees-list',
