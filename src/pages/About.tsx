@@ -1,3 +1,6 @@
+import Experience from "../components/Experience";
+import Skills from "../components/Skills";
+
 export default function About() {
   return (
     <div className="font-base">
@@ -11,6 +14,10 @@ export default function About() {
           aspernatur nesciunt laudantium ab atque.
         </p>
       </div>
+
+      <Skills />
+
+      <Experience />
     </div>
   );
 }
