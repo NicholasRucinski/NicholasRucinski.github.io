@@ -17,8 +17,8 @@ export default function ProjectList() {
     )
       .then((res) => res.json())
       .then((data) => {
-        const allProjects: Project[] = Object.values(data).flat();
-        setProjects(allProjects);
+        const allProjects = Object.values(data).flat();
+        setProjects(allProjects as Project[]);
         setLoading(false);
       })
       .catch((err) => {
