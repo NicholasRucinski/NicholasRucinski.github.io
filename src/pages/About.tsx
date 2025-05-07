@@ -1,5 +1,6 @@
 import Experience from "../components/Experience";
 import Skills from "../components/Skills";
+import School from "../components/School";
 
 export default function About() {
   return (
@@ -24,6 +25,8 @@ export default function About() {
       <Skills />
 
       <Experience />
+
+      <School />
     </div>
   );
 }

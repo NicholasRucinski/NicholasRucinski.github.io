@@ -85,12 +85,15 @@ export default function ProjectList() {
                         </AspectRatio>
                       )}
                       <div className="text-main-foreground font-base mt-5">
-                        <h2 className="font-heading text-xl sm:text-2xl">
+                        <h2 className="font-heading text-xl sm:text-2xl flex flex-row gap-1">
                           {project.name}
                         </h2>
                         <p className="mt-2">{project.description}</p>
+                        <div className="mt-8 grid grid-cols-1">
+                          <ProjectButton href={""}>Learn More</ProjectButton>
+                        </div>
                         <div
-                          className={`mt-8 grid gap-5 ${
+                          className={`mt-4 grid gap-5 ${
                             project.liveUrl ? "grid-cols-2" : "grid-cols-1"
                           }`}
                         >
