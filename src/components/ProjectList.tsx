@@ -21,8 +21,6 @@ function ProjectButton({
     <a
       className="border-border bg-secondary-background text-foreground shadow-shadow rounded-base font-base hover:translate-x-boxShadowX hover:translate-y-boxShadowY cursor-pointer border-2 px-4 py-2 text-center text-sm transition-all hover:shadow-none sm:text-base"
       href={href}
-      target="_blank"
-      rel="noopener noreferrer"
     >
       {children}
     </a>
@@ -90,7 +88,13 @@ export default function ProjectList() {
                         </h2>
                         <p className="mt-2">{project.description}</p>
                         <div className="mt-8 grid grid-cols-1">
-                          <ProjectButton href={""}>Learn More</ProjectButton>
+                          <ProjectButton
+                            href={`/projects/${encodeURIComponent(
+                              project.name
+                            )}`}
+                          >
+                            Learn More
+                          </ProjectButton>
                         </div>
                         <div
                           className={`mt-4 grid gap-5 ${
