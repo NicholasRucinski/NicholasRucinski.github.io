@@ -13,6 +13,11 @@ export default defineConfig({
           src: 'CNAME',
           dest: '.',
         },
+        {
+          src: 'dist/index.html',
+          dest: '.',
+          rename: '404.html',
+        },
       ],
     }),
     react(),
