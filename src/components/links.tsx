@@ -1,23 +1,19 @@
-import { SiGithub, SiGmail, SiMedium, SiLinkedin } from "react-icons/si";
+import { SiGithub, SiGmail, SiLinkedin } from "react-icons/si";
 import { IconType } from "react-icons";
 
 export default function Links() {
   const links: { icon: IconType; href: string }[] = [
     {
       icon: SiGmail,
-      href: "mailto:johndoe@gmail.com",
+      href: "mailto:nrucinski01@gmail.com",
     },
     {
       icon: SiGithub,
-      href: "https://github.com/johndoe",
+      href: "https://github.com/NicholasRucinski",
     },
     {
       icon: SiLinkedin,
-      href: "https://www.linkedin.com/in/johndoe/",
-    },
-    {
-      icon: SiMedium,
-      href: "https://medium.com/@johndoe",
+      href: "https://www.linkedin.com/in/nicholasrucinski/",
     },
   ];
 
