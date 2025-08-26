@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import ProjectDetails from "./pages/ProjectDetails";
 import ProjectNotFound from "./pages/ProjectNotFound";
+import Servers from "./pages/Servers";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:projectName" element={<ProjectDetails />} />
           <Route path="/not-found" element={<ProjectNotFound />} />
+          <Route path="/minecraft" element={<Servers />} />
         </Route>
       </Routes>
     </>
